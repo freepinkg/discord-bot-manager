@@ -6,13 +6,16 @@ Each bot runs in its own isolated child process (`child_process.fork`), so a cra
 
 ## Features
 
-- **Multi-process isolation** — each bot is a separate OS process
-- **Auto-restart** — configurable delay and max retry count
-- **IPC** — send messages between the manager and any bot process
-- **Lifecycle events** — `start`, `ready`, `crash`, `restart`, `stop`, `error`
-- **Graceful shutdown** — sends `shutdown` message, then SIGKILL after 5s timeout
-- **Status reporting** — query PID, status, uptime, and restart count per bot
-- **TypeScript** — full type declarations included
+- **Discord Bot Management** — manage multiple Discord bots from a single manager process
+- **Multi-Process Isolation** — each bot runs in its own OS process via `child_process.fork`
+- **Auto-Restart** — automatic restart on crash with configurable delay and max retry count
+- **IPC Communication** — send and receive messages between the manager and any bot process
+- **Cluster & Sharding Ready** — built for sharded and clustered Discord bot architectures
+- **Process Lifecycle Control** — start, stop, and restart individual bots or all at once
+- **Graceful Shutdown** — sends shutdown signal, then SIGKILL after configurable timeout
+- **Status Monitoring** — query real-time PID, status, uptime, and restart count per bot
+- **Event System** — rich lifecycle events: `start`, `ready`, `crash`, `restart`, `stop`, `error`
+- **TypeScript First** — full type declarations included out of the box
 
 ## Install
 
