@@ -34,12 +34,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/discord-bot-manager"
+    "url": "git+https://github.com/freepinkg/discord-bot-manager.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/discord-bot-manager/issues"
+    "url": "https://github.com/freepinkg/discord-bot-manager/issues"
   },
-  "homepage": "https://github.com/your-username/discord-bot-manager",
+  "homepage": "https://github.com/freepinkg/discord-bot-manager",
   "engines": {
     "node": ">=18.0.0"
   },
