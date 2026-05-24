@@ -1,6 +1,6 @@
 {
   "name": "discord-bots-manager",
-  "version": "0.1.0",
+  "version": "4.2.0",
   "description": "Spawn and manage multiple Discord bot processes from a single manager using child_process.fork()",
 "main": "dist/index.js",
 "types": "dist/index.d.ts",
@@ -12,21 +12,15 @@
   },
   "keywords": [
     "discord",
-    "bot",
-    "manager",
-    "process-manager",
-    "discord.js",
-    "cluster",
-    "shard",
-    "sharding",
-    "multiprocess",
-    "child-process",
-    "fork",
-    "process-management",
+    "discord-bot",
+    "discord-js",
     "bot-manager",
-    "nodejs",
-    "typescript",
-    "discord-bot"
+    "multiprocess",
+    "cluster",
+    "sharding",
+    "process-manager",
+    "auto-restart",
+    "ipc"
   ],
   "license": "MIT",
   "files": [
