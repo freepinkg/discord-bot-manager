@@ -1,4 +1,4 @@
-# discord-bot-manager
+# discord-bots-manager
 
 Spawn, monitor, and manage multiple Discord bot processes from a single Node.js process.
 
@@ -17,7 +17,7 @@ Each bot runs in its own isolated child process (`child_process.fork`), so a cra
 ## Install
 
 ```bash
-npm install discord-bot-manager
+npm install discord-bots-manager
 ```
 
 > **Peer dependency:** requires `discord.js@^14`
@@ -27,7 +27,7 @@ npm install discord-bot-manager
 ### Manager (index.js)
 
 ```ts
-import { Manager } from 'discord-bot-manager'
+import { Manager } from 'discord-bots-manager'
 
 const manager = new Manager({
   bots: [
@@ -64,7 +64,7 @@ This is the script the manager forks. It receives `BOT_NAME`, `BOT_TOKEN`, and `
 
 ```ts
 import { Client, GatewayIntentBits } from 'discord.js'
-import type { IPCMessage } from 'discord-bot-manager'
+import type { IPCMessage } from 'discord-bots-manager'
 
 const client = new Client({
   intents: Number(process.env.BOT_INTENTS) || GatewayIntentBits.Guilds,

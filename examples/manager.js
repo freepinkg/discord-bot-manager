@@ -1,5 +1,5 @@
 /**
- * Example usage of discord-bot-manager.
+ * Example usage of discord-bots-manager.
  * Run: node examples/manager.js
  *
  * Make sure to build the library first: npm run build

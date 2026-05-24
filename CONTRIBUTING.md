@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to discord-bot-manager!
+Thanks for your interest in contributing to discord-bots-manager!
 
 ## How to contribute
 
