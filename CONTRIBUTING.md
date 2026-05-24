@@ -44,4 +44,4 @@ node examples/manager.js
 
 ## Questions?
 
-Open an issue at https://github.com/your-username/discord-bot-manager/issues
+Open an issue at https://github.com/freepinkg/discord-bot-manager/issues
