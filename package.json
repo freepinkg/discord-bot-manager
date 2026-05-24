@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot-manager",
+  "name": "discord-bots-manager",
   "version": "0.1.0",
   "description": "Spawn and manage multiple Discord bot processes from a single manager using child_process.fork()",
 "main": "dist/index.js",
