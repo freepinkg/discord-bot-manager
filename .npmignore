@@ -1,0 +1,11 @@
+src/
+examples/
+tsconfig.json
+CONTRIBUTING.md
+.gitignore
+.npmignore
+*.tsbuildinfo
+.env
+.DS_Store
+*.log
+npm-debug.log*
